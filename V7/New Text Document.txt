@@ -1,0 +1,1 @@
+condexpect1 gives parameters along a sample path of markov chain at each discretized point.

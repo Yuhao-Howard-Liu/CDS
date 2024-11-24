@@ -1,0 +1,10 @@
+#!/bin/sh
+#PBS -N CCPdefaulttest
+#PBS -l select=1:ncpus=12:mem=48gb,walltime=3:00:00
+#PBS -M yuhao.liu@unsw.edu.au
+#PBS -m ae
+date
+cd V7
+module load matlab/R2022a
+matlab -nodisplay -nosplash -r CCPdefaulttest
+date
